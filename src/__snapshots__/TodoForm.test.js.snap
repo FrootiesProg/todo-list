@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders NewTodoForm component 1`] = `
+<DocumentFragment>
+  <form>
+    <label
+      for="task"
+    >
+      Task:
+    </label>
+    <input
+      id="task"
+      type="text"
+      value=""
+    />
+    <button>
+      Add Todo
+    </button>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`renders TodoList component 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      Todo App
+    </h1>
+    <form>
+      <label
+        for="task"
+      >
+        Task:
+      </label>
+      <input
+        id="task"
+        type="text"
+        value=""
+      />
+      <button>
+        Add Todo
+      </button>
+    </form>
+    <div />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`submitting form adds a new todo 1`] = `
+<DocumentFragment>
+  <form>
+    <label
+      for="task"
+    >
+      Task:
+    </label>
+    <input
+      id="task"
+      type="text"
+      value=""
+    />
+    <button>
+      Add Todo
+    </button>
+  </form>
+</DocumentFragment>
+`;
